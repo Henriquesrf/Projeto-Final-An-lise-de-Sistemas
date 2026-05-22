@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #099232, #7ad896);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login {
+  background-color: white;
+  width: 380px;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login h1 {
+  text-align: center;
+  color: #099232;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.textlabel {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.campotexto {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.campotexto:focus {
+  border-color: #099232;
+  box-shadow: 0 0 8px rgba(9, 146, 50, 0.4);
+}
+
+#btnlogin {
+  background-color: #099232;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnlogin:hover {
+  background-color: #06661b;
+}
+
+.cadastro-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.cadastro-link a {
+  color: #099232;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cadastro-link a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
